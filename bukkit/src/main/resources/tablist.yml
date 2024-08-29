@@ -14,7 +14,7 @@ remember-toggled-tablist-to-file: true
 
 # Hide tab from vanished players
 # Requires Essentials, CMI or SuperVanish plugin!
-hide-tab-when-player-vanished: false
+hide-tab-when-player-vanished: true
 
 # In these worlds tab won't be displayed
 disabled-worlds:
@@ -35,7 +35,7 @@ random: false
 
 header:
 - "&5&m==========================\n%anim:tablist%"
-- "&7<75> %anim:welcome% %player%&c!&7 <74>"
+- "&7<75> %anim:welcome% %_ph3nix%&c!&7 <74>"
 - ""
 - "&6Ping:&r %ping%&7ms&a TPS:&r %tps%\n"
 
@@ -81,12 +81,12 @@ per-world:
 # Defines per player tablist
 per-player:
   testplayer:
-    header: "%anim:perPlayer%"
+    header: "%anim:_ph2nix%"
     footer: "&5&m======================"
 
 # Defines per-grouped tablist for players whose having the specified group added
 # Requires Vault plugin!
 per-group:
   vaultGroup:
-    header: "%anim:perGroupHead%"
+    header: "%anim:_ph3nix%"
     footer: "%anim:perGroupFoot%"
